@@ -1,0 +1,6 @@
+{
+    "BigQuery Schema": [
+        {"name": "CategoryID", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "CategoryName", "type": "STRING", "mode": "REQUIRED"}
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "BigQuery Schema": [
+        {"name": "OrderItemId", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "OrderId", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "ProductPrice", "type": "FLOAT", "mode": "REQUIRED"},
+        {"name": "Quantity", "type": "INTEGER", "mode": "REQUIRED"},
+        {"name": "DiscountRate", "type": "FLOAT", "mode": "REQUIRED"}
+    ]
+}

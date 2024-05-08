@@ -1,0 +1,10 @@
+{
+    "BigQuery Schema": [
+        {"name": "OrderId", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "CustomerId", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "OrderStatus", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "SalesPerCustomer", "type": "FLOAT", "mode": "REQUIRED"},
+        {"name": "OrderProfitPerOrder", "type": "FLOAT", "mode": "REQUIRED"},
+        {"name": "ShippingMode", "type": "STRING", "mode": "REQUIRED"}
+    ]
+}

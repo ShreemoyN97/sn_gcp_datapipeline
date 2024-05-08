@@ -1,0 +1,61 @@
+function transform(line) {
+    var values = line.split(','); // Assumes no internal commas in fields
+    var obj = new Object();
+
+    obj.Type = values[0];
+    obj.DaysForShippingReal = values[1];
+    obj.DaysForShipmentScheduled = values[2];
+    obj.BenefitPerOrder = values[3];
+    obj.SalesPerCustomer = values[4];
+    obj.DeliveryStatus = values[5];
+    obj.LateDeliveryRisk = values[6];
+    obj.CategoryId = values[7];
+    obj.CategoryName = values[8];
+    obj.CustomerCity = values[9];
+    obj.CustomerCountry = values[10];
+    obj.CustomerEmail = values[11];
+    obj.CustomerFname = values[12];
+    obj.CustomerId = values[13];
+    obj.CustomerLname = values[14];
+    obj.CustomerPassword = values[15];
+    obj.CustomerSegment = values[16];
+    obj.CustomerState = values[17];
+    obj.CustomerStreet = values[18];
+    obj.CustomerZipcode = values[19];
+    obj.DepartmentId = values[20];
+    obj.DepartmentName = values[21];
+    obj.Latitude = values[22];
+    obj.Longitude = values[23];
+    obj.Market = values[24];
+    obj.OrderCity = values[25];
+    obj.OrderCountry = values[26];
+    obj.OrderCustomerId = values[27];
+    obj.OrderDate = values[28];
+    obj.OrderId = values[29];
+    obj.OrderItemCardprodId = values[30];
+    obj.OrderItemDiscount = values[31];
+    obj.OrderItemDiscountRate = values[32];
+    obj.OrderItemId = values[33];
+    obj.OrderItemProductPrice = values[34];
+    obj.OrderItemProfitRatio = values[35];
+    obj.OrderItemQuantity = values[36];
+    obj.Sales = values[37];
+    obj.OrderItemTotal = values[38];
+    obj.OrderProfitPerOrder = values[39];
+    obj.OrderRegion = values[40];
+    obj.OrderState = values[41];
+    obj.OrderStatus = values[42];
+    obj.OrderZipcode = values[43];
+    obj.ProductCardId = values[44];
+    obj.ProductCategoryId = values[45];
+    obj.ProductDescription = values[46]; // Ensure this field is handled for commas
+    obj.ProductImage = values[47];
+    obj.ProductName = values[48];
+    obj.ProductPrice = values[49];
+    obj.ProductStatus = values[50];
+    obj.ShippingDate = values[51];
+    obj.ShippingMode = values[52];
+
+    var jsonString = JSON.stringify(obj);
+    return jsonString;
+}

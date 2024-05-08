@@ -1,0 +1,6 @@
+{
+    "BigQuery Schema": [
+        {"name": "DepartmentID", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "DepartmentName", "type": "STRING", "mode": "REQUIRED"}
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "BigQuery Schema": [
+        {"name": "CustomerID", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "Email", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "FirstName", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "LastName", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "Password", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "Segment", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "Street", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "City", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "State", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "Country", "type": "STRING", "mode": "REQUIRED"},
+        {"name": "Zipcode", "type": "STRING", "mode": "REQUIRED"}
+    ]
+}
